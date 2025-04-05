@@ -14,7 +14,7 @@ export default function Section() {
     }, []);
 
     return (
-        <div className="container mx-auto pt-10">
+        <div id="About" className="container mx-auto pt-10">
             <div className="grid grid-cols-3">
                 <div className="col-span-2 text-white">
                     <p className="text-5xl font-medium">Hello, I'm Ulugbek</p>

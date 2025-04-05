@@ -2,7 +2,7 @@ import React from 'react'
 
 function Skills() {
     return (
-        <div className='container mx-auto mt-10'>
+        <div id='Skills' className='container mx-auto mt-10'>
             <p className='text-white text-4xl font-medium pt-20 pb-10'>Skill & Tools</p>
             <div className='grid grid-cols-2'>
                 <div className='col-span-1 rounded-2xl border border-fuchsia-300 p-5 mr-3'>
