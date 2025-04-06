@@ -65,7 +65,7 @@ function Navbar() {
         <div className="p-6 space-y-6 text-lg">
           <Link href="#About" onClick={closeMenu} className="block hover:text-amber-500">About me</Link>
           <Link href="#Skills" onClick={closeMenu} className="block hover:text-amber-500">Skill & Tools</Link>
-          <Link href="#Projects" onClick={closeMenu} className="block hover:text-amber-500">Projects</Link>
+          <Link href={"/Projec"} onClick={closeMenu} className="block hover:text-amber-500">Projects</Link>
           <Link href="#Footer" onClick={closeMenu} className="block hover:text-amber-500">Contact me</Link>
         </div>
       </div>
