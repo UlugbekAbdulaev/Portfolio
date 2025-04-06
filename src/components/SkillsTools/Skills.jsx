@@ -2,8 +2,8 @@ import React from 'react'
 
 function Skills() {
     return (
-        <div id='Skills' className='container mx-auto mt-10 px-4'>
-            <p className='text-white text-4xl font-medium pt-20 pb-10'>Skill & Tools</p>
+        <div id='Skills' className='container mx-auto mt-80 md:mt-2 px-4 '>
+            <p className='text-white text-4xl font-medium pt-20 pb-10 '>Skill & Tools</p>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
                 <div className='col-span-1 rounded-2xl border border-fuchsia-300 p-5'>
                     <p className='text-white text-center text-2xl font-medium pb-6'>Programming Languages</p>

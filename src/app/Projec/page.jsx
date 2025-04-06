@@ -3,7 +3,7 @@ import React from 'react'
 function page() {
     return (
         <div className='text-white container mx-auto'>
-            <div className='grid grid-cols-3 gap-10'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-10 px-5 md:px-0 mt-2 md:mt-0'>
                 <div className='border border-cyan-300 rounded-2xl overflow-hidden text-center px-4 py-5'>
                     <img src="/milliy.jpg" alt="" />
                     <p className='text-2xl pt-3'>Getting orders from customers</p>
@@ -14,7 +14,7 @@ function page() {
                         Ant Design (Antd) – UI component library <br />
                         React Redux – State management <br />
                         Redux Toolkit – Simplified Redux logic</p> <br />
-                    <div className='flex gap-5 justify-center pt-17'>
+                    <div className='flex gap-5 justify-center pt-2 md:pt-17'>
                         <button className='bg-gradient-to-r to-cyan-400 from-fuchsia-600 px-4 py-2 rounded-lg shadow transition-transform duration-300 hover:scale-110'><a href="https://milliy-taomlar-pi.vercel.app
 ">Live preview</a></button>
                         <button className='border px-4 py-2 rounded-lg transition-transform duration-300 hover:scale-110'><a href="https://github.com/UlugbekAbdulaev/milliy-taomlar.git">Check on GitHub</a></button>
@@ -32,7 +32,7 @@ function page() {
                         - Filter and view products by categories - <br />
                         It is a fully functional frontend interface for an e-commerce platform, designed to be responsive and user-friendly.</p><br />
 
-                    <div className='flex gap-5 justify-center pt-17'>
+                    <div className='flex gap-5 justify-center pt-2 md:pt-17'>
                         <button className='bg-gradient-to-r to-cyan-400 from-fuchsia-600 px-4 py-2 rounded-lg shadow transition-transform duration-300 hover:scale-110'><a href="https://5-imtihon-two.vercel.app
 ">Live preview</a></button>
                         <button className='border px-4 py-2 rounded-lg transition-transform duration-300 hover:scale-110'><a href="https://github.com/UlugbekAbdulaev/5-imtihon.git">Check on GitHub</a></button>
