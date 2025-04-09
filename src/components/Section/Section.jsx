@@ -14,9 +14,9 @@ export default function Section() {
 
     return (
         <div id="About" className="container mx-auto pt-0 md:pt-10 px-4">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-1 md:gap-110 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-1 items-center">
               
-                <div className="md:col-span-2 text-white order-2 md:order-1">
+                <div className="col-span-1 md:col-span-2  text-white order-2 md:order-1">
                     <p className="text-3xl md:text-5xl font-medium">Hello, I'm Ulugbek</p>
                     <p className="text-3xl md:text-5xl font-medium pt-3 md:pt-5">Abdullayev</p>
 
@@ -61,11 +61,11 @@ export default function Section() {
                 </div>
 
              
-                <div className="md:col-span-1 flex justify-center order-1 md:order-2">
-                    <div className="relative w-[200px] h-[200px] md:w-[400px] md:h-[400px] rounded-full">
-                        <div className="absolute inset-1 bg-gradient-to-b from-cyan-400 to-fuchsia-600 rounded-full p-[5px]">
+                <div className="col-span-1 md:col-span-1 flex justify-center order-1 md:order-2">
+                    <div className=" w-[200px] lg:w-[300px] rounded-full">
+                        <div className="w-[200px] lg:w-[300px] inset-1 bg-gradient-to-b from-cyan-400 to-fuchsia-600 rounded-full p-[5px]">
                             <img
-                                className="w-full h-full object-cover rounded-full"
+                                className="w-full object-contain rounded-full"
                                 src="/foto.jpg"
                                 alt="Ulugbek"
                             />
